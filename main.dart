@@ -1,5 +1,4 @@
 // Done by: Bruce Reece
-// Topic: Lab 4
 // Date: 02/02/22
 import 'package:flutter/material.dart';
 
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Lab4',
+      title: 'Lab',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -59,7 +58,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('LAb4 - Stateful App'),
+        title: const Text('LAb - Stateful App'),
       ),
       body: Center(
         child: Container(
